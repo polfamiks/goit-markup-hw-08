@@ -1,25 +1,23 @@
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-  background: #f5f5f5;
+  font-family: "Roboto";
+  color: #f5f5f5;
+  font-size: 14px;
 }
 
 span {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 31,1;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
-
-.items {
+.item {
   list-style-type: none;
 }
+
 .link-logo {
   color: #000000;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
@@ -28,75 +26,65 @@ span {
 }
 .link-nav {
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
 }
 .link-nav-s {
-  font-family: "Roboto";
-  font-style: normal;
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .link-m {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
 }
 .link-m:hover,
 .link-m:focus {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 
 .link-tel {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
+  line-height: 1,71;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
 }
+.link-tel:hover,
+.link-tel:focus {
+  font-weight: 500;
+  line-height: 1,14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
 
-.sestion-1 {
+.hero {
   background: #2f303a;
 }
-.title-h1 {
-  font-style: normal;
+.hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1,37;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
 }
 .button {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1,88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -106,8 +94,7 @@ span {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-.title-section-2 {
-  font-style: normal;
+.title-skills {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -116,19 +103,17 @@ span {
   color: #212121;
 }
 
-.text-section-2 {
-  font-style: normal;
+.text-skills{
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.title-section-3 {
-  font-style: normal;
+.title-about{
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,17;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -140,7 +125,7 @@ span {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,17;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -150,19 +135,18 @@ span {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.title-comand-h3 {
+.title-comand {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
 .text-comand {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,18;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
@@ -174,10 +158,9 @@ span {
 
 .link-logo-footer {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
   letter-spacing: 0.03em;
   color: #2196f3;
   text-decoration: none;
@@ -185,11 +168,8 @@ span {
 }
 .link-adres {
   text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }

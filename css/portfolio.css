@@ -1,7 +1,10 @@
+:root
+
+
 body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-  background: #ffffff;
+  font-family: "Roboto";
+  color: #ffffff;
+  font-size: 14px;
 }
 
 .items {
@@ -30,26 +33,19 @@ span {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #212121;
 }
 .link-nav-p {
-  font-family: "Roboto";
-  font-style: normal;
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #2196f3;
 }
 .link-m {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
@@ -57,8 +53,6 @@ span {
 }
 .link-m:hover,
 .link-m:focus {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -67,18 +61,21 @@ span {
 }
 
 .link-tel {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   color: #757575;
   text-decoration: none;
 }
+.link-tel:hover,
+.link-tel:focus {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
 .buttons{
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
@@ -102,8 +99,6 @@ span {
 }
 
 .title-project {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 36px;
@@ -111,8 +106,6 @@ span {
   color: #212121;
 }
 .text-project {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -137,10 +130,7 @@ span {
 }
 .link-adres {
   text-decoration: none;
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #ffffff;
