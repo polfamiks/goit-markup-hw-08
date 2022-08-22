@@ -1,7 +1,18 @@
+
+:root{
+  --color-blue: #2196F3;
+  --color-p: #757575;
+  --color-h: #212121;
+  --color-white:  #ffffff;
+}
+
+
+
 body {
   font-family: "Roboto";
   color: #f5f5f5;
   font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 span {
@@ -9,8 +20,7 @@ span {
   font-weight: 700;
   font-size: 26px;
   line-height: 31,1;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--color-blue);
 }
 .item {
   list-style-type: none;
@@ -21,7 +31,6 @@ span {
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .link-nav {
@@ -29,21 +38,21 @@ span {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-h);
 }
 .link-nav-s {
   text-decoration: none;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--color-blue);
 }
 
 .link-m {
   font-weight: 500;
   line-height: 1,14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--color-p);
   text-decoration: none;
 }
 .link-m:hover,
@@ -51,14 +60,14 @@ span {
   font-weight: 500;
   line-height: 1,14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--color-blue);
 }
 
 .link-tel {
   font-weight: 500;
   line-height: 1,71;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--color-p);
   text-decoration: none;
 }
 .link-tel:hover,
@@ -66,7 +75,7 @@ span {
   font-weight: 500;
   line-height: 1,14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--color-blue);
 }
 
 .hero {
@@ -79,7 +88,7 @@ span {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-white)
 }
 .button {
   font-weight: 700;
@@ -89,8 +98,8 @@ span {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
+  color: var(--color-white);
+  background: var(--color-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -98,24 +107,21 @@ span {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--color-h);
 }
 
 .text-skills{
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-p);
 }
 .title-about{
   font-weight: 700;
   font-size: 36px;
   line-height: 1,17;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-h);
 }
 
 .section-comand {
@@ -126,11 +132,10 @@ span {
   font-weight: 700;
   font-size: 36px;
   line-height: 1,17;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-h);
 }
 .item-comand {
-  background: #ffffff;
+  background: var(--color-whit)
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -140,16 +145,14 @@ span {
   font-size: 16px;
   line-height: 1,18;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--color-h);
 }
 .text-comand {
   font-weight: 400;
   font-size: 16px;
   line-height: 1,18;
   text-align: center;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--color-p);
 }
 
 .footer {
@@ -161,15 +164,13 @@ span {
   font-weight: 700;
   font-size: 26px;
   line-height: 1,19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--color-blue);
   text-decoration: none;
-  color: #ffffff;
+  color: var(--color-white)
 }
 .link-adres {
   text-decoration: none;
   font-weight: 400;
-  line-height: 1,71;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  line-height: 1,8px;
+  color: var(--color-white)
 }
