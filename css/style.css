@@ -17,7 +17,6 @@ body {
 
 span {
   font-family: "Raleway";
-  font-weight: 700;
   font-size: 26px;
   line-height: calc(31/ 26);
   color: var(--color-blue);
@@ -48,6 +47,10 @@ span {
   color: var(--color-blue);
 }
 
+.link-nav:hover,
+.link-nav:focus{
+  color: var(--color-blue);
+}
 .link-m {
   font-weight: 500;
   line-height: calc(16 / 14);
@@ -57,9 +60,6 @@ span {
 }
 .link-m:hover,
 .link-m:focus {
-  font-weight: 500;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
   color: var(--color-blue);
 }
 
@@ -72,9 +72,6 @@ span {
 }
 .link-tel:hover,
 .link-tel:focus {
-  font-weight: 500;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
   color: var(--color-blue);
 }
 
@@ -104,19 +101,17 @@ span {
   border-radius: 4px;
 }
 .title-skills {
-  font-weight: 700;
+  font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
   color: var(--color-h);
 }
 
 .text-skills{
-  font-weight: 400;
   line-height: calc(24 / 14);
   color: var(--color-p);
 }
 .title-about{
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   color: var(--color-h);
@@ -146,7 +141,6 @@ span {
   color: var(--color-h);
 }
 .text-comand {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -170,7 +164,6 @@ span {
 }
 .link-adres {
   font-family: 'Roboto';
-  font-weight: 400;
   text-decoration: none;
   line-height: calc(24 / 14);
   color: var(--color-white);
