@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 :root{
   --color-blue: #2196F3;
@@ -14,6 +19,21 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+.conteiner{
+  height: 2346px;
+  width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px ;
+  border-radius: 0px;
+  
+
+}
+
+.header{
+  width: 1600px;
+height: 80px;
+}
+
 
 span {
   font-family: "Raleway";
