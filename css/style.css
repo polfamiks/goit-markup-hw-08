@@ -1,17 +1,9 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-:root{
-  --color-blue: #2196F3;
+:root {
+  --color-blue: #2196f3;
   --color-p: #757575;
   --color-h: #212121;
-  --color-white:  #ffffff;
+  --color-white: #ffffff;
 }
-
-
 
 body {
   font-family: "Roboto";
@@ -19,33 +11,46 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-.conteiner{
-  height: 2346px;
-  width: 1600px;
+.conteiner {
   padding-left: 15px;
-  padding-right: 15px ;
+  padding-right: 15px;
   border-radius: 0px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.list-nav-adres {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.list-nav{ 
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   
-
 }
-
-.header{
-  width: 1600px;
-height: 80px;
-}
-
 
 span {
   font-family: "Raleway";
   font-size: 26px;
-  line-height: calc(31/ 26);
+  line-height: calc(31 / 26);
   color: var(--color-blue);
 }
-.list{
+.list {
   list-style-type: none;
 }
 
 .link-logo {
+  margin-right: auto;
+  margin-left: 215px;
   color: #000000;
   font-weight: 700;
   font-size: 26px;
@@ -53,6 +58,7 @@ span {
   text-decoration: none;
 }
 .link-nav {
+
   text-decoration: none;
   font-weight: 500;
   line-height: calc(16 / 14);
@@ -68,7 +74,7 @@ span {
 }
 
 .link-nav:hover,
-.link-nav:focus{
+.link-nav:focus {
   color: var(--color-blue);
 }
 .link-m {
@@ -101,7 +107,7 @@ span {
 .hero-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: calc(60/ 44);
+  line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -110,7 +116,7 @@ span {
 .button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1,88;
+  line-height: 1, 88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -127,11 +133,11 @@ span {
   color: var(--color-h);
 }
 
-.text-skills{
+.text-skills {
   line-height: calc(24 / 14);
   color: var(--color-p);
 }
-.title-about{
+.title-about {
   font-size: 36px;
   line-height: calc(42 / 36);
   color: var(--color-h);
@@ -183,7 +189,7 @@ span {
   color: var(--color-white);
 }
 .link-adres {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   text-decoration: none;
   line-height: calc(24 / 14);
   color: var(--color-white);
