@@ -17,25 +17,18 @@ body {
   border-radius: 0px;
   margin: 0 auto;
 }
+.header {
+  border-bottom: 1px solid #ececec;
+}
 
-.nav {
+.list-nav {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
+
 .list-nav-adres {
   display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.list-nav{ 
-  gap: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  
+  margin-left: auto;
 }
 
 span {
@@ -49,8 +42,8 @@ span {
 }
 
 .link-logo {
+  display: flex;
   margin-right: auto;
-  margin-left: 215px;
   color: #000000;
   font-weight: 700;
   font-size: 26px;
@@ -58,7 +51,6 @@ span {
   text-decoration: none;
 }
 .link-nav {
-
   text-decoration: none;
   font-weight: 500;
   line-height: calc(16 / 14);
@@ -101,6 +93,15 @@ span {
   color: var(--color-blue);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
 .hero {
   background: #2f303a;
 }
