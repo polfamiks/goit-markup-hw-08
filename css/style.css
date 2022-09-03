@@ -235,6 +235,7 @@ width: 1170px;
   display: flex;
   flex-direction: column;
   padding: 60px 60px;
+  margin-top: 94px;
   
 }
 .contacts-adress {
