@@ -24,10 +24,11 @@
   </head>
   <body>
     <header>
-      <nav class="nav">
+      <div class="header-conteiner">
+      <nav class="header-nav">
         <a class="link-logo" href="./index.html"><span>Web</span>Studio</a>
 
-        <ul class="list">
+        <ul class="list-nav">
           <li>
             <a
               class="link-nav"
@@ -50,7 +51,7 @@
           </li>
           <li><a class="link-nav" href="Контакти">Контакти</a></li>
         </ul>
-        <ul class="list">
+        <ul class="list-nav-adres">
           <li>
             <a class="link-m" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -61,21 +62,25 @@
           </li>
         </ul>
       </nav>
+    </div>
     </header>
     <main>
       <section>
         <h1 hidden>фільтри сторінки</h1>
         <!-- filters-->
-        <ul class="list">
+        <div class="filters">
+        <ul class="list-filters">
           <li><button class="filter-btn-one" type="button">Уci</button></li>
           <li><button class="filter-btn" type="button">Веб-сайти</button></li>
           <li><button class="filter-btn" type="button">Додатки</button></li>
           <li><button class="filter-btn" type="button">Дизайн</button></li>
           <li><button class="filter-btn" type="button">Маркетинг</button></li>
         </ul>
+      </div>
         <h2 hidden>проекти студії</h2>
         <!--project-->
-        <ul class="list">
+        <div class="project">
+        <ul class="list-project">
           <li class="item-project">
             <img
               src="./img/img-1.svg"
@@ -167,9 +172,11 @@
             <p class="text-project">Додаток</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="footer-cont">
       <a class="link-logo-footer" href="./index.html"><span>Web</span>Studio</a>
 
       <address class="contacts-adress">
@@ -189,6 +196,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
