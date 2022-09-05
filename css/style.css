@@ -11,31 +11,33 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-.header-conteiner {
+.conteiner {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
 .header-cont {
   display: flex;
-  justify-content: center;
 }
 .header-nav {
   display: flex;
   align-items: center;
   margin-right: auto;
-  margin-left: 215px;
 }
 .list-nav {
   display: flex;
   gap: 50px;
+  align-items: center;
   margin-left: 93px;
-  padding: 32px 32px;
+  margin: 0px;
+  padding: 0px;
 }
 .list-nav-adres {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin: 0px;
+  padding: 0px;
 }
 
 span {
@@ -49,12 +51,12 @@ span {
 }
 
 .link-logo {
-
   color: #000000;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   text-decoration: none;
+  margin-right: 93px;
 }
 
 .link-nav {
@@ -63,6 +65,8 @@ span {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--color-h);
+  display: inline-block;
+  padding: 32px 0;
 }
 
 .link-nav-s {
@@ -112,14 +116,14 @@ p {
 }
 .hero {
   background: #2f303a;
+  padding: 200px 0;
+  text-align: center;
 }
-.hero-cont {
-  display: flex;
-  flex-direction: column;
-  padding: 200px 200px;
-  align-items: center;
-}
+
 .hero-title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
@@ -128,30 +132,41 @@ p {
   text-transform: uppercase;
   color: var(--color-white);
 }
+
 .button {
   margin-top: 30px;
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--color-white);
   background: var(--color-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
-.skills-cont {
-  display: flex;
-  margin-top: 94px;
+.skills {
+  padding: 94px 0;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
-}
 .list-skiills {
   display: flex;
   gap: 30px;
-width: 1170px;
+  margin: 0px;
+  padding: 0px;
 }
 .title-skills {
   font-size: 14px;
@@ -167,48 +182,42 @@ width: 1170px;
   line-height: calc(24 / 14);
   color: var(--color-p);
 }
-.section-cont{
-  margin-top: 94px;
+.section{
+  padding-bottom: 94px;
 }
 .title-about {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 50px;
+  text-align: center;
   font-size: 36px;
   line-height: calc(42 / 36);
   color: var(--color-h);
 }
-.list-about{
+.list-about {
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
-  gap: 50px;
-}
-
-.section-comand {
-  background: #f5f4fa;
-}
-.comand-cont{
-  margin-top: 94px;
-}
-
-
-
-.title-comand {
-  display: flex;
-  justify-content: center;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  color: var(--color-h);
-}
-.list-comand{
-  display: flex;
-  margin-top: 50px;
+  margin: 0px;
+  padding: 0px;
   gap: 30px;
-    width: 1170px;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.comand {
+  background-color: #f5f4fa;
+}
+.title-comand {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  color: var(--color-h);
+}
+.list-comand {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 30px;
 }
 .item-comand {
   background: var(--color-whit);
@@ -216,7 +225,7 @@ width: 1170px;
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
-.title-comand {
+.title {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -232,19 +241,14 @@ width: 1170px;
 
 .footer {
   background: #2f303a;
+  padding: 60px 0px;
+ 
 }
-.footer-cont{
-  display: flex;
-  flex-direction: column;
-  padding: 60px 60px;
-  margin-top: 94px;
-  
-}
+
 .contacts-adress {
   font-style: normal;
 }
 .link-logo-footer {
-  display: flex;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -252,16 +256,18 @@ width: 1170px;
   color: var(--color-blue);
   text-decoration: none;
   color: var(--color-white);
+  
 }
-.list{
-display: flex;
-flex-direction: column;
-padding-left: 0px;
-gap: 9px;
-margin-top: 20px;
+.list {
+  display: flex;
+ padding:0px;
+ margin: 0px;
+ flex-direction: column;
+  gap: 9px;
+  
 }
 .link-adres {
-   font-family: "Roboto";
+  font-family: "Roboto";
   text-decoration: none;
   line-height: calc(24 / 14);
   color: var(--color-white);
