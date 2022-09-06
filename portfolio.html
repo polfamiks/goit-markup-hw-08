@@ -24,7 +24,8 @@
   </head>
   <body>
     <header>
-      <div class="header-conteiner">
+      <div class="conteiner">
+        <div class="header-cont">
       <nav class="header-nav">
         <a class="link-logo" href="./index.html"><span>Web</span>Studio</a>
 
@@ -51,6 +52,7 @@
           </li>
           <li><a class="link-nav" href="Контакти">Контакти</a></li>
         </ul>
+      </nav>
         <ul class="list-nav-adres">
           <li>
             <a class="link-m" href="mailto:info@devstudio.com"
@@ -61,12 +63,14 @@
             <a class="link-tel" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
+      
+      </div>
     </div>
     </header>
     <main>
       <section>
-        <h1 hidden>фільтри сторінки</h1>
+        <div class="conteiner">
+        <h1 class="visually-hidden" >фільтри сторінки</h1>
         <!-- filters-->
         <div class="filters">
         <ul class="list-filters">
@@ -77,7 +81,7 @@
           <li><button class="filter-btn" type="button">Маркетинг</button></li>
         </ul>
       </div>
-        <h2 hidden>проекти студії</h2>
+        <h2 class="visually-hidden">проекти студії</h2>
         <!--project-->
         <div class="project">
         <ul class="list-project">
@@ -173,6 +177,7 @@
           </li>
         </ul>
       </div>
+        </div>
       </section>
     </main>
     <footer class="footer">

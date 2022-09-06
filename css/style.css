@@ -198,13 +198,14 @@ p {
   padding: 0px;
   gap: 30px;
 }
-img{
+img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 .comand {
   background-color: #f5f4fa;
+  padding: 94px 0px;
 }
 .title-comand {
   margin-bottom: 50px;

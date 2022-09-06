@@ -12,27 +12,35 @@ body {
 .list {
   list-style-type: none;
 }
-.header-conteiner{
-  min-width: 1200px;
+.conteiner{
+  width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+ 
+}
+.header-cont {
   display: flex;
-
 }
 .header-nav{
   display: flex;
-align-items: baseline;
+  align-items: center;
+  margin-right: auto;
 }
 .list-nav{
   display: flex;
+  align-items: center;
   gap: 50px;
   margin-left: 93px;
+  margin: 0px;
+  padding: 0px;
 }
 .list-nav-adres{
 display: flex;
+align-items: center;
 gap: 50px;
-margin-left: 344px;
-padding-left: 0;
+margin: 0px;
+padding: 0px;
+
 }
 
 
@@ -45,6 +53,7 @@ span {
   color: var(--color-blue);
 }
 .link-logo {
+  margin-right: 93px;
   font-weight: 700;
   color: #000000;
   font-size: 26px;
@@ -58,6 +67,8 @@ span {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: #212121;
+  display: inline-block;
+  padding: 32px 0;
 }
 
 .link-nav:hover,
@@ -104,14 +115,27 @@ h6,
 p {
   margin: 0;
 }
-
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .filters{
-  margin-top: 94px;
+  padding-top: 94px;
 }
 .list-filters{
   display: flex;
   justify-content: center;
   gap: 8px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .filter-btn {
@@ -125,6 +149,7 @@ p {
   background: #f5f4fa;
   border-radius: var(--border-radius);
   cursor: pointer;
+  border: none;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -150,17 +175,21 @@ p {
   color: #ffffff;
 }
 .project{
-  margin-top: 34px;
+  padding-top: 34px;
 }
 .list-project{
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
-  padding-left: 0px;
   gap: 30px;
- 
-
+  margin: 0px;
+  padding: 0px;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .item-project {
   background: #ffffff;
   border: 1px solid #eeeeee;
