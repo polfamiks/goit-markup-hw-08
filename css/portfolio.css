@@ -12,21 +12,20 @@ body {
 .list {
   list-style-type: none;
 }
-.conteiner{
+.conteiner {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
- 
 }
 .header-cont {
   display: flex;
 }
-.header-nav{
+.header-nav {
   display: flex;
   align-items: center;
   margin-right: auto;
 }
-.list-nav{
+.list-nav {
   display: flex;
   align-items: center;
   gap: 50px;
@@ -34,15 +33,13 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.list-nav-adres{
-display: flex;
-align-items: center;
-gap: 50px;
-margin: 0px;
-padding: 0px;
-
+.list-nav-adres {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 0px;
+  padding: 0px;
 }
-
 
 span {
   font-family: "Raleway";
@@ -127,10 +124,10 @@ p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.filters{
+.filters {
   padding-top: 94px;
 }
-.list-filters{
+.list-filters {
   display: flex;
   justify-content: center;
   gap: 8px;
@@ -174,16 +171,17 @@ p {
   background: var(--color-blue);
   color: #ffffff;
 }
-.project{
-  padding-top: 34px;
+.project {
+  margin-top: 34px;
 }
-.list-project{
+
+.list-project {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -194,9 +192,11 @@ img {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
-
+.tumb {
+  padding: 20px 24px;
+}
 .title-project {
-  margin-top: 20px;
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
@@ -212,19 +212,18 @@ img {
 .footer {
   background: #2f303a;
 }
-.footer-cont{
+.footer-cont {
   display: flex;
   flex-direction: column;
-  padding: 60px 60px;
+  padding: 60px 0px;
   margin-top: 94px;
-  
 }
 .contacts-adress {
   font-style: normal;
 }
 
 .link-logo-footer {
-  display: flex;
+  padding-bottom: 20px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -234,13 +233,13 @@ img {
   text-decoration: none;
   color: #ffffff;
 }
-.list{
+.list {
   display: flex;
   flex-direction: column;
-  padding-left: 0px;
   gap: 9px;
-  margin-top: 20px;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 .link-adres {
   text-decoration: none;
   line-height: calc(24 / 14);

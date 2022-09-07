@@ -182,8 +182,8 @@ p {
   line-height: calc(24 / 14);
   color: var(--color-p);
 }
-.section{
-  padding-bottom: 94px;
+.section {
+  margin-bottom:  94px;
 }
 .title-about {
   margin-bottom: 50px;
@@ -205,8 +205,10 @@ img {
 }
 .comand {
   background-color: #f5f4fa;
-  padding: 94px 0px;
-}
+ }
+ .tumb{
+  padding: 30px 0px;
+ }
 .title-comand {
   margin-bottom: 50px;
   text-align: center;
@@ -227,6 +229,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .title {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -242,14 +245,19 @@ img {
 
 .footer {
   background: #2f303a;
+}
+.footer-cont {
+  display: flex;
+  flex-direction: column;
   padding: 60px 0px;
- 
+  margin-top: 94px;
 }
 
 .contacts-adress {
   font-style: normal;
 }
 .link-logo-footer {
+  padding-bottom: 20px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -257,15 +265,13 @@ img {
   color: var(--color-blue);
   text-decoration: none;
   color: var(--color-white);
-  
 }
 .list {
   display: flex;
- padding:0px;
- margin: 0px;
- flex-direction: column;
+  flex-direction: column;
+  padding: 0px;
+  margin: 0px;
   gap: 9px;
-  
 }
 .link-adres {
   font-family: "Roboto";
