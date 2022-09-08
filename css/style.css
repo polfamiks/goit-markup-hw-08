@@ -183,7 +183,7 @@ p {
   color: var(--color-p);
 }
 .section {
-  margin-bottom:  94px;
+  padding-bottom:  94px;
 }
 .title-about {
   margin-bottom: 50px;
@@ -205,12 +205,13 @@ img {
 }
 .comand {
   background-color: #f5f4fa;
+  padding-bottom: 94px;
  }
  .tumb{
   padding: 30px 0px;
  }
 .title-comand {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
   text-align: center;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -223,6 +224,7 @@ img {
   gap: 30px;
 }
 .item-comand {
+  flex-basis: calc((100% - 3 * 30px) / 4);
   background: var(--color-whit);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -247,17 +249,19 @@ img {
   background: #2f303a;
 }
 .footer-cont {
-  display: flex;
-  flex-direction: column;
   padding: 60px 0px;
-  margin-top: 94px;
 }
 
 .contacts-adress {
   font-style: normal;
 }
+.list {
+  margin: 0px;
+  padding: 0px;
+}
 .link-logo-footer {
-  padding-bottom: 20px;
+  display: block; 
+  margin-bottom: 20px;
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
@@ -266,12 +270,11 @@ img {
   text-decoration: none;
   color: var(--color-white);
 }
-.list {
-  display: flex;
-  flex-direction: column;
-  padding: 0px;
-  margin: 0px;
-  gap: 9px;
+footer li{
+  margin-bottom: 9px;
+}
+footer li:last-child {
+  margin-bottom: 0;
 }
 .link-adres {
   font-family: "Roboto";
