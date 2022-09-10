@@ -9,7 +9,11 @@ body {
   font-size: 14px;
 }
 
-.list {
+
+header {
+  border-bottom: 1px solid #ECECEC;
+}
+ul {
   list-style-type: none;
 }
 .conteiner {
@@ -112,21 +116,12 @@ h6,
 p {
   margin: 0;
 }
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.filters {
+
+section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
+
 .list-filters {
   display: flex;
   justify-content: center;
@@ -142,8 +137,7 @@ p {
   font-size: 16px;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  background: #f5f4fa;
+    background: #f5f4fa;
   border-radius: var(--border-radius);
   cursor: pointer;
   border: none;
@@ -152,6 +146,7 @@ p {
 .filter-btn:focus {
   background: var(--color-blue);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-btn-one {
   padding: 6px 25px;
@@ -160,7 +155,6 @@ p {
   font-size: 16px;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background: #f5f4fa;
   border-radius: var(--border-radius);
   cursor: pointer;
@@ -171,10 +165,23 @@ p {
 .filter-btn-one:focus {
   background: var(--color-blue);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .project {
-  margin-top: 34px;
-  padding-bottom: 94px;
+  margin-top: 50px;
+  padding-bottom: 0px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .list-project {
@@ -192,13 +199,13 @@ img {
 }
 
 .item-project {
-  flex-basis: calc((100% - 3 * 30px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   background: #ffffff;
 }
 .tumb {
   border: 1px solid #EEEEEE;
   border-top: 0px;
-  padding: 20px 0px;
+  padding: 20px 24px;
 }
 .title-project {
   margin-bottom: 4px;
@@ -216,10 +223,9 @@ img {
 
 .footer {
   background: #2f303a;
-}
-.footer-cont {
   padding: 60px 0px;
 }
+
 .contacts-adress {
   font-style: normal;
 }

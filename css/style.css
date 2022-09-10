@@ -11,6 +11,9 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
+header{
+  border-bottom: 1px solid #ECECEC;
+}
 .conteiner {
   width: 1200px;
   margin: 0 auto;
@@ -46,7 +49,7 @@ span {
   line-height: calc(31 / 26);
   color: var(--color-blue);
 }
-.list {
+ul {
   list-style-type: none;
 }
 
@@ -114,6 +117,12 @@ h6,
 p {
   margin: 0;
 }
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .hero {
   background: #2f303a;
   padding: 200px 0;
@@ -147,8 +156,9 @@ p {
   border: none;
 }
 .skills {
-  padding: 94px 0;
+  padding-bottom: 0px;
 }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -182,9 +192,7 @@ p {
   line-height: calc(24 / 14);
   color: var(--color-p);
 }
-.section {
-  padding-bottom:  94px;
-}
+
 .title-about {
   margin-bottom: 50px;
   text-align: center;
@@ -205,13 +213,12 @@ img {
 }
 .comand {
   background-color: #f5f4fa;
-  padding-bottom: 94px;
- }
- .tumb{
+}
+.tumb {
   padding: 30px 0px;
- }
+}
 .title-comand {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   text-align: center;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -247,8 +254,6 @@ img {
 
 .footer {
   background: #2f303a;
-}
-.footer-cont {
   padding: 60px 0px;
 }
 
@@ -260,7 +265,7 @@ img {
   padding: 0px;
 }
 .link-logo-footer {
-  display: block; 
+  display: block;
   margin-bottom: 20px;
   font-family: "Raleway";
   font-weight: 700;
@@ -270,7 +275,7 @@ img {
   text-decoration: none;
   color: var(--color-white);
 }
-footer li{
+footer li {
   margin-bottom: 9px;
 }
 footer li:last-child {
