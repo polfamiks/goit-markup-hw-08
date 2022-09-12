@@ -11,8 +11,8 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-header{
-  border-bottom: 1px solid #ECECEC;
+header {
+  border-bottom: 1px solid #ececec;
 }
 .conteiner {
   width: 1200px;
@@ -84,12 +84,23 @@ ul {
 .link-nav:focus {
   color: var(--color-blue);
 }
+
+
 .link-m {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--color-p);
   text-decoration: none;
+}
+.items-nav-adres::before{
+  display: inline-flex;
+  content:"";
+  width: 16px;
+  height: 12px;
+  background-image: url(../css/images.css/hover.png);
+  background-size: contain;
+
 }
 .link-m:hover,
 .link-m:focus {
@@ -124,7 +135,14 @@ p {
 }
 
 .hero {
-  background: #2f303a;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #2f303a; 
+  background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),url(../css/images.css/Img-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 200px 0;
   text-align: center;
 }
@@ -147,7 +165,7 @@ p {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 88;
+  line-height: 1,88;
   letter-spacing: 0.06em;
   color: var(--color-white);
   background: var(--color-blue);
@@ -223,7 +241,6 @@ img {
   font-size: 36px;
   line-height: calc(42 / 36);
   color: var(--color-h);
-  
 }
 .list-comand {
   display: flex;
