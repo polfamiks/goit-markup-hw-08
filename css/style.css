@@ -97,9 +97,20 @@ ul {
   content: "";
   width: 16px;
   height: 12px;
-  background-image: url(../css/images.css/hover.png);
+  background-repeat: no-repeat ;
   background-size: contain;
+  margin-right: 10px;
 }
+
+.icon-mail::before{
+  background-image: url(..//css/images.css/hover.png);
+}
+
+.icon-tel::before{
+  background-image: url(..//css/images.css/smartphone.png);
+}
+
+
 .link-m:hover,
 .link-m:focus {
   color: var(--color-blue);
@@ -198,6 +209,36 @@ p {
   margin: 0px;
   padding: 0px;
 }
+
+.item-skills::before{
+  display: block;
+  content: "";
+  height: 120px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 30px;
+}
+
+.icon-a::before{
+  background-image: url(../css/images.css/icon-a.png);
+}
+
+.icon-b::before{
+  background-image: url(../css/images.css/icon-b.png);
+}
+
+.icon-c::before{
+  background-image: url(../css/images.css/icon-c.png);
+}
+
+.icon-d::before{
+  background-image: url(../css/images.css/icon-d.png);
+}
+
+
+
+
+
 .title-skills {
   font-size: 14px;
   line-height: calc(16 / 14);
