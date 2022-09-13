@@ -85,7 +85,6 @@ ul {
   color: var(--color-blue);
 }
 
-
 .link-m {
   font-weight: 500;
   line-height: calc(16 / 14);
@@ -93,14 +92,13 @@ ul {
   color: var(--color-p);
   text-decoration: none;
 }
-.items-nav-adres::before{
+.items-nav-adres::before {
   display: inline-flex;
-  content:"";
+  content: "";
   width: 16px;
   height: 12px;
   background-image: url(../css/images.css/hover.png);
   background-size: contain;
-
 }
 .link-m:hover,
 .link-m:focus {
@@ -138,8 +136,12 @@ p {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background: #2f303a; 
-  background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ),url(../css/images.css/Img-hero.jpg);
+  background: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../css/images.css/Img-hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,7 +167,7 @@ p {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1,88;
+  line-height: 1, 88;
   letter-spacing: 0.06em;
   color: var(--color-white);
   background: var(--color-blue);
