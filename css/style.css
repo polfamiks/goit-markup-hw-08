@@ -99,19 +99,18 @@ ul {
   content: "";
   width: 16px;
   height: 12px;
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   background-size: contain;
   margin-right: 10px;
 }
 
-.icon-mail::before{
+.icon-mail::before {
   background-image: url(.//images.css/mail.svg);
 }
 
-.icon-tel::before{
+.icon-tel::before {
   background-image: url(..//css/images.css/smartphone.svg);
 }
-
 
 .link-m:hover,
 .link-m:focus {
@@ -205,40 +204,25 @@ p {
   overflow: hidden;
 }
 
+.item-feature{
+  display: flex;
+  gap: 30px;
+}
+.link-feature{
+  background: #F5F4FA;
+border-radius: 4px;
+}
+
+
+
+
+
 .list-skiills {
   display: flex;
   gap: 30px;
   margin: 0px;
   padding: 0px;
 }
-
-.item-skills::before{
-  display: block;
-  content: "";
-  height: 120px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  margin-bottom: 30px;
-}
-
-.icon-a::before{
-  background-image: url(..//css/images.css/icon-a.svg);
-}
-
-.icon-b::before{
-  background-image: url(..//css/images.css/icon-b.svg);
-}
-
-.icon-c::before{
-  background-image: url(..//css/images.css/icon-c.svg);
-}
-
-.icon-d::before{
-  background-image: url(..//css/images.css/icon-d.svg);
-}
-
-
-
 
 
 .title-skills {
@@ -315,30 +299,27 @@ img {
   color: var(--color-p);
 }
 
-.title-client{
-font-size: 36px;
-line-height: calc(42 / 36);
-text-align: center;
-letter-spacing: 0.03em;
-color: var(--color-h)
-
+.title-client {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-h);
 }
 
-
-.list-client{
-  display: flex;
-  justify-content: space-between;
+.list-client {
   margin-top: 50px;
 }
-.item-client{
-width: 170px;
-  height: 92px;
-  gap: 30px;
-  border: 1px solid #AFB1B8;
+.item-client {
+  display: inline-flex;
 }
 
-
-
+.link-client{
+  
+  text-decoration: none;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
 
 .footer {
   background: #2f303a;
