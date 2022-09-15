@@ -32,15 +32,11 @@ header {
   gap: 50px;
   align-items: center;
   margin-left: 93px;
-  margin: 0px;
-  padding: 0px;
 }
 .list-nav-adres {
   display: flex;
   align-items: center;
   gap: 50px;
-  margin: 0px;
-  padding: 0px;
 }
 
 span {
@@ -87,9 +83,9 @@ ul {
   color: var(--color-blue);
 }
 
-.icon-header{
+.icon-header {
   fill: var(--color-p);
- }
+}
 
 .link-m {
   display: flex;
@@ -100,8 +96,6 @@ ul {
   color: var(--color-p);
   text-decoration: none;
 }
-
-
 
 .link-m:hover,
 .link-m:focus {
@@ -197,26 +191,19 @@ p {
   overflow: hidden;
 }
 
-.item-feature{
+.item-feature {
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
-.link-feature{
-  background: #F5F4FA;
-border-radius: 4px;
+.link-feature {
+  background: #f5f4fa;
 }
-
-
-
-
 
 .list-skiills {
   display: flex;
   gap: 30px;
-  margin: 0px;
-  padding: 0px;
 }
-
 
 .title-skills {
   font-size: 14px;
@@ -292,15 +279,11 @@ img {
   color: var(--color-p);
 }
 
-.list-social{
-  display: inline-flex;
+.item-social {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  gap: 10px;
 }
-
-
-
-
 
 .title-client {
   font-size: 36px;
@@ -312,16 +295,12 @@ img {
 
 .list-client {
   margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
-.item-client {
-  display: inline-flex;
-}
-
-.link-client{
-  
-  text-decoration: none;
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
+.icon-client {
+  fill: #afb1b8;
 }
 
 .footer {
@@ -329,13 +308,20 @@ img {
   padding: 60px 0px;
 }
 
+.title-social {
+  line-height: calc(16 / 14);;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.list-socioal-footer{
+  display: flex;
+}
+
 .contacts-adress {
   font-style: normal;
 }
-.list {
-  margin: 0px;
-  padding: 0px;
-}
+
 .link-logo-footer {
   display: block;
   margin-bottom: 20px;
