@@ -19,6 +19,11 @@ header {
   margin: 0 auto;
   padding: 0 15px;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .header-cont {
   display: flex;
 }
@@ -45,11 +50,7 @@ span {
   line-height: calc(31 / 26);
   color: var(--color-blue);
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
+
 
 .link-logo {
   color: #000000;
@@ -95,6 +96,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--color-p);
   text-decoration: none;
+  gap: 10px;
 }
 
 .link-m:hover,
@@ -110,6 +112,7 @@ ul {
   letter-spacing: 0.02em;
   color: var(--color-p);
   text-decoration: none;
+  gap: 10px;
 }
 .link-tel:hover,
 .link-tel:focus {
@@ -197,7 +200,15 @@ p {
   gap: 30px;
 }
 .link-feature {
-  background: #f5f4fa;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #F5F4FA;
+border-radius: 4px;
+width: 270px;
+height: 120px;
+margin-bottom: 30px;
+
 }
 
 .list-skiills {
@@ -307,22 +318,40 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-h);
+  margin-bottom: 50px;
 }
 
-.item-client {
+.list-client{
   display: flex;
+  justify-content: center;
+  gap: 30px;
 }
 
 .link-client {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-.icon-client {
-  text-align: center;
 
-  fill: #afb1b8;
+
+.icon-client {
+   fill: #afb1b8;
+}
+
+
+.icon-client .link-client :hover{
+fill: var(--color-blue);
+
+}
+
+
+.foot{
+  display: flex;
+  align-items: baseline;
 }
 
 .footer {
@@ -334,6 +363,7 @@ img {
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .list-social-footer {
