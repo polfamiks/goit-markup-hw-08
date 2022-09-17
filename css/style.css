@@ -84,7 +84,7 @@ span {
 }
 
 .icon-header {
-  fill: var(--color-p);
+  fill: currentColor;
 }
 
 .link-m {
@@ -339,9 +339,13 @@ img {
   fill: #afb1b8;
 }
 
-.icon-client .link-client :hover {
-  fill: var(--color-blue);
+.link-client:hover {
+  color: var(--color-blue);
 }
+.icon-client :hover {
+  fill: currentColor;
+}
+
 
 .footer {
   background: #2f303a;
@@ -406,8 +410,5 @@ footer li:last-child {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--color-white);
-}
-.icon-social-footer {
-  fill: var(--color-white);
+  background-color: rgba(255, 255, 255, 0.1);
 }
