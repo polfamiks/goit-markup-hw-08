@@ -51,7 +51,6 @@ span {
   color: var(--color-blue);
 }
 
-
 .link-logo {
   color: #000000;
   font-weight: 700;
@@ -200,15 +199,14 @@ p {
   gap: 30px;
 }
 .link-feature {
-display: flex;
-align-items: center;
-justify-content: center;
-background: #F5F4FA;
-border-radius: 4px;
-width: 270px;
-height: 120px;
-margin-bottom: 30px;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
 }
 
 .list-skiills {
@@ -307,8 +305,8 @@ img {
   background-color: var(--color-white);
 }
 
-.link-social :hover .icon-social-comand, 
-.link-social :focus .icon-social-comand{
+.link-social :hover .icon-social-comand,
+.link-social :focus .icon-social-comand {
   fill: var(--color-blue);
 }
 
@@ -321,7 +319,7 @@ img {
   margin-bottom: 50px;
 }
 
-.list-client{
+.list-client {
   display: flex;
   justify-content: center;
   gap: 30px;
@@ -337,26 +335,25 @@ img {
   border-radius: 4px;
 }
 
-
 .icon-client {
-   fill: #afb1b8;
+  fill: #afb1b8;
 }
 
-
-.icon-client .link-client :hover{
-fill: var(--color-blue);
-
-}
-
-
-.foot{
-  display: flex;
-  align-items: baseline;
+.icon-client .link-client :hover {
+  fill: var(--color-blue);
 }
 
 .footer {
   background: #2f303a;
   padding: 60px 0px;
+}
+
+.conteiner-footer {
+  display: flex;
+  align-items: baseline;
+}
+.adress-footer {
+  margin-right: 70px;
 }
 
 .title-social {
@@ -396,4 +393,21 @@ footer li:last-child {
   text-decoration: none;
   line-height: calc(24 / 14);
   color: var(--color-white);
+}
+.item-social-footer {
+  display: flex;
+  gap: 10px;
+}
+
+.link-social-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+}
+.icon-social-footer {
+  fill: var(--color-white);
 }
