@@ -42,6 +42,8 @@ ul {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin: 32px 0;
+
 }
 
 span {
@@ -304,11 +306,18 @@ img {
   border-radius: 50%;
   background-color: var(--color-white);
 }
-
-.link-social :hover .icon-social-comand,
-.link-social :focus .icon-social-comand {
-  fill: var(--color-blue);
+.icon-social-comand{
+  fill: #AFB1B8;
 }
+
+.link-social:hover {
+  background-color: var(--color-blue);
+}
+.icon-social-comand:hover{
+  fill: var(--color-white);
+}
+
+
 
 .title-client {
   font-size: 36px;
@@ -339,11 +348,14 @@ img {
   fill: #afb1b8;
 }
 
-.link-client:hover {
+.link-client:hover,
+.link-client:focus {
   color: var(--color-blue);
+  border-color: var(--color-blue) ;
 }
-.icon-client :hover {
-  fill: currentColor;
+.icon-client:hover,
+.icon-client:focus{
+  fill: var(--color-blue);
 }
 
 
@@ -401,6 +413,10 @@ footer li:last-child {
 .item-social-footer {
   display: flex;
   gap: 10px;
+  fill: var(--color-white);
+}
+.icon-social-footer{
+  fill: var(--color-white);
 }
 
 .link-social-footer {
@@ -410,5 +426,8 @@ footer li:last-child {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.1);
+   background-color: rgba(255, 255, 255, 0.1);
+}
+.link-social-footer:hover{
+  background-color: var(--color-blue);
 }
