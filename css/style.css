@@ -164,11 +164,11 @@ p {
 
 .button {
   margin-top: 30px;
-  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 88;
   letter-spacing: 0.06em;
+  width: 216px;
+  height: 50px;
   color: var(--color-white);
   background: var(--color-blue);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -192,26 +192,22 @@ p {
   overflow: hidden;
 }
 
-.item-feature {
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-.link-feature {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #f5f4fa;
-  border-radius: 4px;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-}
+
 
 .list-skiills {
   display: flex;
   gap: 30px;
 }
+.feauter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
 
 .title-skills {
   font-size: 14px;
@@ -302,16 +298,14 @@ img {
   height: 44px;
   border-radius: 50%;
   background-color: var(--color-white);
-  fill: #afb1b8;
+  color: #afb1b8;
 }
-
-
+.icon-social-comand{
+  fill: currentColor;
+}
 .link-social:hover {
-  fill: var(--color-white);
+  color: var(--color-white);
   background-color: var(--color-blue);
-}
-.icon-social-comand:hover {
-  fill: var(--color-white);
 }
 
 .title-client {

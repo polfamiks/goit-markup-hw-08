@@ -24,6 +24,7 @@ ul {
 }
 .header-cont {
   display: flex;
+
 }
 .header-nav {
   display: flex;
@@ -34,12 +35,15 @@ ul {
   display: flex;
   align-items: center;
   gap: 50px;
+ 
   
 }
 .list-nav-adres {
   display: flex;
   align-items: center;
   gap: 50px;}
+  
+
 
 span {
   font-family: "Raleway";
@@ -211,6 +215,9 @@ img {
 .item-project {
   flex-basis: calc((100% - 60px) / 3);
   background: #ffffff;
+}
+.link-project{
+  text-decoration: none;
 }
 .tumb {
   border: 1px solid #eeeeee;
