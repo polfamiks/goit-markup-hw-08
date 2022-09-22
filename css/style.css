@@ -80,6 +80,7 @@ span {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--color-blue);
+  padding: 32px 0;
 }
 
 .link-nav-s::after {
@@ -106,7 +107,7 @@ span {
   display: flex;
   align-items: center;
   font-weight: 500;
-  line-height: calc(24 / 14);
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--color-p);
   text-decoration: none;
