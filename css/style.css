@@ -59,8 +59,7 @@ span {
   margin-right: 93px;
 }
 
-.item-nav {
-}
+
 .link-nav {
   display: inline-block;
   text-decoration: none;
@@ -207,10 +206,15 @@ p {
   border-radius: 4px;
 }
 
-.icon-modal{
+.icon-close{
+  position: absolute;
   border-radius: 50%;
-  background-color: #FFFFFF;
-
+  width: 18px;
+  height: 18px;
+   border: 1px solid rgba(0, 0, 0, 0.1);
+   
+background: #000000;
+  
 }
 
 .skills {
