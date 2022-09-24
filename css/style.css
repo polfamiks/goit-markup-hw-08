@@ -211,14 +211,19 @@ p {
   border-radius: 4px;
 }
 
-.icon-close {
+.modal-btn {
   position: absolute;
+  top: 8px;
+  right: 8px;
   border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.icon-close {
   width: 18px;
   height: 18px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-
-  background: #000000;
+  fill: #000000;
 }
 
 .visually-hidden {
