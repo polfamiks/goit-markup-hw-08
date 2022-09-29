@@ -30,20 +30,13 @@
             <a class="link-logo" href="./index.html"><span>Web</span>Studio</a>
             <ul class="list-nav">
               <li class="item-nav">
-                <a
-                  class="link-nav-s"
-                  href="./index.html"
-                >
-                  Студія</a
-                >
+                <a class="link-nav-s" href="./index.html"> Студія</a>
               </li>
               <li class="item-nav">
-                <a class="link-nav"
-                 href="./portfolio.html">Портфоліо</a>
+                <a class="link-nav" href="./portfolio.html">Портфоліо</a>
               </li>
               <li class="item-nav">
-                <a class="link-nav"
-                 href="./index.html">Контакти</a>
+                <a class="link-nav" href="./index.html">Контакти</a>
               </li>
             </ul>
           </nav>
@@ -80,12 +73,56 @@
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-              <p></p>
+              <p>yiii</p>
               <button class="modal-btn" data-modal-close>
                 <svg class="icon-close" width="30" height="30">
-                  <use href="./css/images.css/symbol-defs.svg#icon-close-black-18dp-2-1"></use>
+                  <use
+                    href="./css/images.css/symbol-defs.svg#icon-close-black-18dp-2-1"
+                  ></use>
                 </svg>
               </button>
+              <form name="regist-form" class="regist-form">
+                <strong class="text regist-form">Залиште свої дані, ми вам передзвонимо</strong>
+                
+                <div class="regist-form" role="group">
+                <label>
+                  <span>Ім'я</span>
+                  <input type="text" name="text" />
+                  <svg widht="18"height="18">
+                    <use href=""></use>
+                  </svg>
+                </label>
+
+                <lable>
+                  <span>Телефон</span>
+                  <input type="tel" name="phone namber" />
+                  <svg widht="18"height="18">
+                    <use href=""></use>
+                  </svg>
+                </lable>
+
+                <lable>
+                  <span>Пошта</span>
+                  <input type="email" name="email" />
+                  <svg widht="18"height="18">
+                    <use href=""></use>
+                  </svg>
+                </lable>
+
+                <label>
+                  <span>Коментар</span>
+                  <textarea name="feedback" rows="5" placeholder="Введіть текст">
+                  </textarea>
+                </label>
+                <label>
+                  <input type="checkbox" name="form">
+                 <span></span>Погоджуюся з розсилкою та приймаю</span><a href> Умови договору</a>
+                </label>
+                </div>
+                 <button type="submit"> Відправити</button>
+             
+
+              </form>
             </div>
           </div>
         </div>
@@ -486,69 +523,67 @@
     </main>
 
     <footer class="footer">
-      
-        <div class="conteiner conteiner-footer">
-          <div class="adress-footer">
-            <a class="link-logo-footer" href="./index.html"
-              ><span>Web</span>Studio</a
-            >
-            <address class="contacts-adress">
-              <ul class="list">
-                <li class="item-footer">
-                  <a
-                    class="link-adres"
-                    href="https://goo.gl/maps/xvaP7BLMKEUKL4Ew8"
-                    >м. Київ, пр-т Лесі Українки, 26</a
-                  >
-                </li>
-                <li class="item-footer">
-                  <a class="link-footer mail" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                  >
-                </li>
-                <li class="item-footer">
-                  <a class="link-footer tel" href="tel:+380961111111"
-                    >+38 096 111 11 11</a
-                  >
-                </li>
-              </ul>
-            </address>
-          </div>
-          <div class="social-footer">
-            <p class="title-social">приєднуйтесь</p>
-            <ul class="item-social-footer">
-              <li class="list-social-footer">
-                <a class="link-social-footer" href="https://instagram.com">
-                  <svg class="icon-social-footer" width="20" height="20">
-                    <use href="./css/images.css/icon.svg#icon-instagram"></use>
-                  </svg>
-                </a>
+      <div class="conteiner conteiner-footer">
+        <div class="adress-footer">
+          <a class="link-logo-footer" href="./index.html"
+            ><span>Web</span>Studio</a
+          >
+          <address class="contacts-adress">
+            <ul class="list">
+              <li class="item-footer">
+                <a
+                  class="link-adres"
+                  href="https://goo.gl/maps/xvaP7BLMKEUKL4Ew8"
+                  >м. Київ, пр-т Лесі Українки, 26</a
+                >
               </li>
-              <li class="list-social-footer">
-                <a class="link-social-footer" href="https://twitter.com">
-                  <svg class="icon-social-footer" width="20" height="20">
-                    <use href="./css/images.css/icon.svg#icon-twitter"></use>
-                  </svg>
-                </a>
+              <li class="item-footer">
+                <a class="link-footer mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
-              <li class="list-social-footer">
-                <a class="link-social-footer" href="https://facebook.com">
-                  <svg class="icon-social-footer" width="20" height="20">
-                    <use href="./css/images.css/icon.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="list-social-footer">
-                <a class="link-social-footer" href="https://linkedin.com">
-                  <svg class="icon-social-footer" width="20" height="20">
-                    <use href="./css/images.css/icon.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
+              <li class="item-footer">
+                <a class="link-footer tel" href="tel:+380961111111"
+                  >+38 096 111 11 11</a
+                >
               </li>
             </ul>
-          </div>
+          </address>
         </div>
-    
+        <div class="social-footer">
+          <p class="title-social">приєднуйтесь</p>
+          <ul class="item-social-footer">
+            <li class="list-social-footer">
+              <a class="link-social-footer" href="https://instagram.com">
+                <svg class="icon-social-footer" width="20" height="20">
+                  <use href="./css/images.css/icon.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-social-footer">
+              <a class="link-social-footer" href="https://twitter.com">
+                <svg class="icon-social-footer" width="20" height="20">
+                  <use href="./css/images.css/icon.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-social-footer">
+              <a class="link-social-footer" href="https://facebook.com">
+                <svg class="icon-social-footer" width="20" height="20">
+                  <use href="./css/images.css/icon.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="list-social-footer">
+              <a class="link-social-footer" href="https://linkedin.com">
+                <svg class="icon-social-footer" width="20" height="20">
+                  <use href="./css/images.css/icon.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
     <script src="./js/modal.js"></script>
   </body>

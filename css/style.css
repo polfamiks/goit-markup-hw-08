@@ -248,6 +248,15 @@ p {
   overflow: hidden;
 }
 
+
+
+.regist-form{
+  display: flex;
+  flex-direction: column;
+  color: black
+}
+
+
 .list-skiills {
   display: flex;
   gap: 30px;
