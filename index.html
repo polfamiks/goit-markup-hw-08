@@ -82,44 +82,43 @@
                 </svg>
               </button>
               <form name="regist-form" class="regist-form">
-                <strong class="text regist-form">Залиште свої дані, ми вам передзвонимо</strong>
-                
-                <div class="regist-form" role="group">
-                <label>
-                  <span>Ім'я</span>
-                  <input type="text" name="text" />
-                  <svg widht="18"height="18">
+                <strong class="text-regist-form">Залиште свої дані, ми вам передзвонимо</strong>
+                <div class="regist-form-group" role="group">
+                <label class="regist-form-field">
+                  <span class="regist-form-lable">Ім'я</span>
+                  <input class="register-form-input" type="text" name="text" required />
+                  <svg class="icon-form"widht="18"height="18">
                     <use href=""></use>
                   </svg>
                 </label>
 
-                <lable>
-                  <span>Телефон</span>
-                  <input type="tel" name="phone namber" />
-                  <svg widht="18"height="18">
+                <lable class="regist-form-field">
+                  <span class="regist-form-lable">Телефон</span>
+                  <input class="register-form-input" type="tel" name="phone namber" placeholder=" "  required/>
+                  <svg class="icon-form" widht="18"height="18">
                     <use href=""></use>
                   </svg>
                 </lable>
 
-                <lable>
-                  <span>Пошта</span>
-                  <input type="email" name="email" />
-                  <svg widht="18"height="18">
+                <lable class="regist-form-field">
+                  <span class="regist-form-lable">Пошта</span>
+                  <input class="register-form-input" type="email" name="email"required />
+                  <svg class="icon-form" widht="18"height="18">
                     <use href=""></use>
                   </svg>
                 </lable>
 
-                <label>
-                  <span>Коментар</span>
-                  <textarea name="feedback" rows="5" placeholder="Введіть текст">
+                <label class="regist-form-field">
+                  <span class="regist-form-lable">Коментар</span>
+                  <textarea class="register-form-masseg" name="feedback" rows="5" placeholder="Введіть текст">
                   </textarea>
                 </label>
-                <label>
-                  <input type="checkbox" name="form">
-                 <span></span>Погоджуюся з розсилкою та приймаю</span><a href> Умови договору</a>
+                <label class="regist-form-agreement" >
+                  <input class="register-form-input" type="checkbox" name="form" required>
+                 <span class="regist-form-desc">Погоджуюся з розсилкою та приймаю</span><a class="register-form-link" href> Умови договору</a>
                 </label>
                 </div>
-                 <button type="submit"> Відправити</button>
+                 <button class="regist-form-btn button" type="submit"> Відправити</button>
              
 
               </form>
