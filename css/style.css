@@ -188,7 +188,8 @@ p {
   height: 100%;
   z-index: 5;
   background: rgba(0, 0, 0, 0.2);
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -249,95 +250,86 @@ p {
   overflow: hidden;
 }
 
-
-
-
-.text-regist-form{
+.text-regist-form {
   display: block;
-font-size: 20px;
-line-height: 23px;
-letter-spacing: 0.03em;
-margin-bottom: 12px;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+  margin-bottom: 12px;
 
-color: #212121;
+  color: #212121;
 }
 
-
-
-
-.regist-form-group{
+.regist-form-group {
   margin-bottom: 12px;
 }
 
-.regist-form-field{
+.regist-form-field {
+  position: relative;
   display: block;
   margin-bottom: 10px;
 }
-.regist-form-lable{
- font-family: 'Roboto';
-font-size: 12px;
-line-height: 14px;
-letter-spacing: 0.01em;
-color: #757575;
+.regist-form-lable {
+  font-family: "Roboto";
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
 }
 
-.register-form-input{
+.register-form-input {
   width: 100%;
   height: 40px;
   padding-left: 18px;
   padding-right: 18px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-outline: transparent;
+  border-radius: 4px;
+  outline: transparent;
 }
 
-.register-form-input:focus{
-  border: 1px solid #2196F3;
-border-radius: 4px;
+.register-form-input:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 
-.icon-form{
+.icon-form {
+  position: absolute;
+
 }
 
-.regist-form-agreement{
-  display: flex;
+.regist-form-agreement {
+  display: block;
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
 }
 
-.register-form-masseg{
+.register-form-masseg {
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
-border-radius: 4px;
-outline: transparent;
-}
-.register-form-masseg:focus{
-  border: 1px solid #2196F3;
   border-radius: 4px;
-
+  outline: transparent;
+}
+.register-form-masseg:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 
-
-
-.regist-form-btn{
+.regist-form-btn {
   display: block;
   margin: 0 auto;
-
 }
 
-
-.regist-form-desc{
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #757575;
+.regist-form-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
-
 
 .list-skiills {
   display: flex;
