@@ -110,15 +110,19 @@
 
                 <label class="regist-form-field">
                   <span class="regist-form-lable">Коментар</span>
-                  <textarea class="register-form-masseg" name="feedback"  placeholder="Введіть текст">
+                  <textarea class="register-form-masseg" name="feedback" placeholder="Введіть текст">
                   </textarea>
                 </label>
               </div>
                 <label class="regist-form-agreement" >
-                  <input class="register-form-chekbox" type="checkbox" >
+                  <input class="register-form-chekbox" type="checkbox" name="" id="" />
                   <svg class="checkbox-icon" width="16"height="15">
                     <use href="./css/images.css/form.svg#icon-Vector"></use>
                   </svg>
+                  <svg class="uncheckbox-icon" width="16"height="15">
+                    <use href="./css/images.css/form.svg#icon-Vector"></use>
+                  </svg>
+                  
                  <span class="regist-form-desc">Погоджуюся з розсилкою та приймаю</span><a class="register-form-link" href> Умови договору</a>
                 </label>
               
@@ -589,11 +593,16 @@
         <div class="form">
           <form  class="footer-form" name="footer-form">
             <span class="text-footer-form">Підпишіться на розсилку</span>
+            <div class="mail-button">
             <lable class="footer-email">
-              <input class="footer-email-input" type="email">
-              
-              <button class="button-footer button" type="submit">підписатися</button>
+              <input class="footer-email-input" type="email" placeholder="E-mail">
+              <button class="button-footer button" type="submit">Підписатися
+                <svg class="icon-button-footer"width="24"height="24">
+                  <use href="./css/images.css/icon-telegram.svg#icon-icon-send"></use>
+                </svg>
+              </button>
             </lable>
+          </div>
           </form>
         </div>
       </div>
