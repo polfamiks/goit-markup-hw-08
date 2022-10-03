@@ -236,6 +236,9 @@ p {
   height: 18px;
   fill: #000000;
 }
+.icon-close:hover{
+  fill: var(--color-blue);
+}
 
 .visually-hidden {
   position: absolute;
@@ -283,7 +286,7 @@ p {
 .register-form-input {
   width: 100%;
   height: 40px;
-  padding-left: 18px;
+  padding-left: 42px;
   padding-right: 18px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
@@ -312,6 +315,18 @@ p {
   justify-content: center;
   margin-bottom: 30px;
 }
+
+
+
+.uncheckbox-icon{
+  opacity: 0;
+}
+
+.register-form-chekbox:checked + .register-form-icon .uncheckbox-icon{
+  opacity: 1;
+}
+
+
 
 .register-form-masseg {
   width: 100%;
@@ -656,6 +671,7 @@ footer li:last-child {
   width: 358px;
   height: 50px;
   margin-right: 12px;
+  padding-left: 16px;
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
