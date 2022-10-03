@@ -235,6 +235,7 @@ p {
   width: 18px;
   height: 18px;
   fill: #000000;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-close:hover{
   fill: var(--color-blue);
@@ -271,6 +272,7 @@ p {
   position: relative;
   display: block;
   margin-bottom: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .regist-form-lable {
   display: flex;
@@ -281,6 +283,7 @@ p {
   line-height: 14px;
   letter-spacing: 0.01em;
   color: #757575;
+ 
 }
 
 .register-form-input {
@@ -315,7 +318,6 @@ p {
   justify-content: center;
   margin-bottom: 30px;
 }
-
 
 
 .uncheckbox-icon{
@@ -679,12 +681,15 @@ footer li:last-child {
   outline: transparent;
 }
 .button-footer {
-  display: block;
+  display: flex;
+  align-items: center;
   width: 200px;
   height: 50px;
   margin: 0 auto;
   padding: 10px 28px;
 }
 .icon-button-footer{
+  margin-left: 10px;
+  
 
 }
