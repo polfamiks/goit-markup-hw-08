@@ -82,50 +82,91 @@
                 </svg>
               </button>
               <form name="regist-form" class="regist-form">
-                <strong class="text-regist-form">Залиште свої дані, ми вам передзвонимо</strong>
+                <strong class="text-regist-form"
+                  >Залиште свої дані, ми вам передзвонимо</strong
+                >
                 <div class="regist-form-group" role="group">
-                <label class="regist-form-field">
-                  <span class="regist-form-lable">Ім'я</span>
-                  <input class="register-form-input" type="text" name="text" required />
-                  <svg class="icon-form"width="18"height="18">
-                    <use href="./css/images.css/form.svg#icon-person-black-18dp-1"></use>
+                  <label class="regist-form-field">
+                    <span class="regist-form-lable">Ім'я</span>
+                    <input
+                      class="register-form-input"
+                      type="text"
+                      name="text"
+                      required
+                    />
+                    <svg class="icon-form" width="18" height="18">
+                      <use
+                        href="./css/images.css/form.svg#icon-person-black-18dp-1"
+                      ></use>
+                    </svg>
+                  </label>
+
+                  <lable class="regist-form-field">
+                    <span class="regist-form-lable">Телефон</span>
+                    <input
+                      class="register-form-input"
+                      type="tel"
+                      name="phone namber"
+                      placeholder=" "
+                      required
+                    />
+                    <svg class="icon-form" width="18" height="18">
+                      <use
+                        href="./css/images.css/form.svg#icon-phone-black-18dp-1"
+                      ></use>
+                    </svg>
+                  </lable>
+
+                  <lable class="regist-form-field">
+                    <span class="regist-form-lable">Пошта</span>
+                    <input
+                      class="register-form-input"
+                      type="email"
+                      name="email"
+                      required
+                    />
+                    <svg class="icon-form" width="18" height="18">
+                      <use
+                        href="./css/images.css/form.svg#icon-email-black-18dp-1"
+                      ></use>
+                    </svg>
+                  </lable>
+
+                  <label class="regist-form-field">
+                    <span class="regist-form-lable">Коментар</span>
+                    <textarea
+                      class="register-form-masseg"
+                      name="feedback"
+                      placeholder="Введіть текст"
+                    ></textarea>
+                  </label>
+                </div>
+                <label class="regist-form-agreement">
+                  <input
+                    class="register-form-chekbox visually-hidden"
+                    type="checkbox"
+                    name="text"
+                    id=""
+                  />
+                  <svg class="register-form-icon" width="16" height="15">
+                    <use
+                      class="checkbox-icon"
+                      href="./css/images.css/form.svg#icon-Vector"
+                    ></use>
+                    <use
+                      class="uncheckbox-icon"
+                      href="./css/images.css/un-chek.svg#icon-icon-check"
+                    ></use>
                   </svg>
+
+                  <span class="regist-form-desc"
+                    >Погоджуюся з розсилкою та приймаю</span
+                  ><a class="register-form-link" href> Умови договору</a>
                 </label>
 
-                <lable class="regist-form-field">
-                  <span class="regist-form-lable">Телефон</span>
-                  <input class="register-form-input" type="tel" name="phone namber" placeholder=" "  required/>
-                  <svg class="icon-form" width="18"height="18">
-                    <use href="./css/images.css/form.svg#icon-phone-black-18dp-1"></use>
-                  </svg>
-                </lable>
-
-                <lable class="regist-form-field">
-                  <span class="regist-form-lable">Пошта</span>
-                  <input class="register-form-input" type="email" name="email"required />
-                  <svg class="icon-form" width="18"height="18">
-                    <use href="./css/images.css/form.svg#icon-email-black-18dp-1"></use>
-                  </svg>
-                </lable>
-
-                <label class="regist-form-field">
-                  <span class="regist-form-lable">Коментар</span>
-                  <textarea class="register-form-masseg" name="feedback" placeholder="Введіть текст"></textarea>
-                </label>
-              </div>
-                <label class="regist-form-agreement" >
-                  <input class="register-form-chekbox visually-hidden" type="checkbox" name="text" id="" />
-                  <svg class="register-form-icon" width="16"height="15">
-                    <use class="checkbox-icon" href="./css/images.css/form.svg#icon-Vector"></use>
-                   <use class="uncheckbox-icon" href="./css/images.css/un-chek.svg#icon-icon-check"></use>
-                  </svg>
-                  
-                 <span class="regist-form-desc">Погоджуюся з розсилкою та приймаю</span><a class="register-form-link" href> Умови договору</a>
-                </label>
-              
-                 <button class="regist-form-btn button" type="submit"> Відправити</button>
-             
-
+                <button class="regist-form-btn button" type="submit">
+                  Відправити
+                </button>
               </form>
             </div>
           </div>
@@ -588,18 +629,25 @@
           </ul>
         </div>
         <div class="form">
-          <form  class="footer-form" name="footer-form">
+          <form class="footer-form" name="footer-form">
             <span class="text-footer-form">Підпишіться на розсилку</span>
             <div class="mail-button">
-            <lable class="footer-email">
-              <input class="footer-email-input" type="email" placeholder="E-mail">
-              <button class="button-footer button" type="submit">Підписатися
-                <svg class="icon-button-footer"width="24"height="24">
-                  <use href="./css/images.css/icon-telegram.svg#icon-icon-send"></use>
-                </svg>
-              </button>
-            </lable>
-          </div>
+              <lable class="footer-email">
+                <input
+                  class="footer-email-input"
+                  type="email"
+                  placeholder="E-mail"
+                />
+                <button class="button-footer button" type="submit">
+                  Підписатися
+                  <svg class="icon-button-footer" width="24" height="24">
+                    <use
+                      href="./css/images.css/icon-telegram.svg#icon-icon-send"
+                    ></use>
+                  </svg>
+                </button>
+              </lable>
+            </div>
           </form>
         </div>
       </div>
