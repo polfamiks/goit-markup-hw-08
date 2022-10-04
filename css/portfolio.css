@@ -305,11 +305,10 @@ img {
 
 .conteiner-footer {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
 }
-.adress-footer {
-  margin-right: 70px;
-}
+
 
 .title-social {
   font-weight: 700;
@@ -365,9 +364,6 @@ footer li:last-child {
   color: var(--color-blue);
 }
 
-.social-footer {
-  margin-right: 93px;
-}
 
 .item-social-footer {
   display: flex;
@@ -417,6 +413,7 @@ footer li:last-child {
   margin-right: 12px;
   padding-left: 16px;
   background-color: #2f303a;
+  color: var(--color-white);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;

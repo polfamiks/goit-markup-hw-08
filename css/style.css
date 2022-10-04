@@ -237,7 +237,7 @@ p {
   fill: #000000;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-close:hover{
+.icon-close:hover, .icon-close:focus {
   fill: var(--color-blue);
 }
 
@@ -257,11 +257,11 @@ p {
 .text-regist-form {
   display: block;
   font-size: 20px;
-  line-height: 23px;
+  line-height: calc(23 / 20) ;
   letter-spacing: 0.03em;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 
-  color: #212121;
+  color: var(--color-h);
 }
 
 .regist-form-group {
@@ -274,6 +274,11 @@ p {
   margin-bottom: 10px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.regist-form-field:last-child{
+  margin-bottom: 0;
+}
+
+
 .regist-form-lable {
   display: flex;
   margin-bottom: 4px;
@@ -282,7 +287,7 @@ p {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--color-p);
  
 }
 
@@ -294,6 +299,7 @@ p {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   outline: transparent;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .register-form-input:focus {
@@ -328,9 +334,8 @@ p {
   opacity: 1;
 }
 
-
-
 .register-form-masseg {
+  display: block;
   width: 100%;
   height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -343,9 +348,6 @@ p {
   border: 1px solid #2196f3;
   border-radius: 4px;
 }
-
-
-
 
 
 .regist-form-btn {
@@ -562,11 +564,10 @@ img {
 
 .conteiner-footer {
   display: flex;
+  justify-content: space-between;
   align-items: baseline;
 }
-.adress-footer {
-  margin-right: 70px;
-}
+
 
 .title-social {
   font-weight: 700;
@@ -622,9 +623,7 @@ footer li:last-child {
   color: var(--color-blue);
 }
 
-.social-footer {
-  margin-right: 93px;
-}
+
 
 .item-social-footer {
   display: flex;
@@ -675,6 +674,7 @@ footer li:last-child {
   margin-right: 12px;
   padding-left: 16px;
   background-color: #2f303a;
+  color: var(--color-white);
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
