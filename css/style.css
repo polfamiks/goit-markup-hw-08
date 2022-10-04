@@ -575,7 +575,7 @@ img {
   text-transform: uppercase;
   margin-bottom: 20px;
 
-  color: #ffffff;
+  color:var(--color-white);
 }
 
 .list-social-footer {
