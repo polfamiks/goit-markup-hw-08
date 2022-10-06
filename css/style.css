@@ -1,9 +1,9 @@
-:root {
+/* :root {
   --color-primeri: #2196f3;
   --color-p: #757575;
   --color-h: #212121;
   --color-akcent: #ffffff;
-}
+} */
 
 body {
   font-family: "Roboto";
@@ -11,19 +11,37 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
 }
-header {
-  border-bottom: 1px solid #ececec;
-}
+
 .conteiner {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
-ul {
+
+/* 
+ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
+}  */
+
+
+
+/* .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}  */
+
+
+
 .header-cont {
   display: flex;
 }
@@ -296,6 +314,7 @@ p {
 .tumb {
   padding: 30px 0px;
 }
+
 .tumb__title {
   margin-bottom: 10px;
   font-weight: 500;
@@ -593,18 +612,7 @@ footer li:last-child {
   fill: var(--color-primeri);
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 
 .text-regist-form {
   display: block;
