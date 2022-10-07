@@ -1,0 +1,30 @@
+
+.skills__list{
+    display: flex;
+    gap: 30px;
+  
+   &__feauter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f4fa;
+    border-radius: 4px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  
+   &__title {
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--color-h);
+  }
+  
+  &__text {
+    width: 270px;
+    height: 72px;
+    line-height: calc(24 / 14);
+    color: var(--color-p);
+  }
+}

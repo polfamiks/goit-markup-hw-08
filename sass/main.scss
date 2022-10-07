@@ -3,6 +3,24 @@
 // utils
 
 @import "./utils/vars";
+@import "./utils/body";
 @import "./utils/visually-hidden";
 @import "./utils/ul";
+@import "./utils/conteiner";
+@import "./utils/section";
+@import "./utils/sizeh";
+
+// page 
+
 @import "./components/header";
+@import "./components/hero";
+@import "./components/skills";
+@import "./components/work";
+@import "./components/about";
+@import "./components/comand";
+@import "./components/client";
+
+
+// footer
+
+@import "./components/footer";

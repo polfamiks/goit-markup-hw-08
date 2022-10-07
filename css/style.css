@@ -3,31 +3,31 @@
   --color-p: #757575;
   --color-h: #212121;
   --color-akcent: #ffffff;
-} */
+}  */
 
-body {
+/* body {
   font-family: "Roboto";
   color: var(--color-akcent);
   font-size: 14px;
   letter-spacing: 0.03em;
-}
+} */
 
-.conteiner {
+ /* .conteiner {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-}
-
-/* 
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
 }  */
 
 
+ /* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}  
 
-/* .visually-hidden {
+
+
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -38,9 +38,9 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}  */
+}   */
 
-
+/* 
 
 .header-cont {
   display: flex;
@@ -138,10 +138,10 @@ span {
 .header-cont__link:hover,
 .header-cont__link:focus {
   color: var(--color-primeri);
-}
+} */
 
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -149,13 +149,13 @@ h5,
 h6,
 p {
   margin: 0;
-}
-
+} */
+/* 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-
+} */
+/* 
 .hero {
   max-width: 1600px;
   margin-left: auto;
@@ -199,11 +199,11 @@ p {
   border-radius: 4px;
   border: none;
   cursor: pointer;
-}
+} */
 
 
 
-
+/* 
 .skills__list{
   display: flex;
   gap: 30px;
@@ -231,8 +231,8 @@ p {
   height: 72px;
   line-height: calc(24 / 14);
   color: var(--color-p);
-}
-
+} */
+/* 
 .work {
   padding-top: 0;
 }
@@ -248,8 +248,8 @@ p {
   margin: 0px;
   padding: 0px;
   gap: 30px;
-}
-
+} */
+/* 
 .about {
   position: relative;
 }
@@ -282,11 +282,11 @@ p {
   text-transform: uppercase;
 
   color: var(--color-akcent);
-}
+} */
 
 
 
-
+/* 
 .comand {
   background-color: #f5f4fa;
 }
@@ -356,14 +356,14 @@ p {
 .social__link:focus {
   color: var(--color-akcent);
   background-color: var(--color-primeri);
-}
+} */
 
 
 
 
 
 
-
+/* 
 .client__title {
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -402,14 +402,14 @@ p {
 .client__link:hover,
 .client__link:focus {
   border-color: var(--color-primeri);
-}
+} */
 
 
 
 
 
 
-
+/* 
 .footer {
   background: #2f303a;
   padding: 60px 0px;
@@ -727,4 +727,4 @@ footer li:last-child {
 
 .register-form-link{
   color: var(--color-primeri);
-}
+} */
