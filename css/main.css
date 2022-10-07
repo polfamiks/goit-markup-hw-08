@@ -213,7 +213,8 @@ span {
   display: flex;
   gap: 30px;
 }
-.skills__list__feauter {
+
+.skills__feauter {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -228,14 +229,16 @@ span {
   height: 120px;
   margin-bottom: 30px;
 }
-.skills__list__title {
+
+.skills__title {
   font-size: 14px;
   line-height: 1.1428571429;
   text-transform: uppercase;
   margin-bottom: 10px;
   color: var(--color-h);
 }
-.skills__list__text {
+
+.skills__text {
   width: 270px;
   height: 72px;
   line-height: 1.7142857143;

@@ -1,36 +1,36 @@
 
 .comand {
-    background-color: #f5f4fa;
+    background-color: #f5f4fa;}
   
   
-   &__title {
+    .comand__title {
     margin-bottom: 50px;
     text-align: center;
     font-size: 36px;
     line-height: calc(42 / 36);
     color: var(--color-h);
   }
-  &__list {
+  .comand__list {
     display: flex;
     margin: 0px;
     padding: 0px;
     gap: 30px;
   }
-  &__item {
+  .comand__item {
     flex-basis: calc((100% - 3 * 30px) / 4);
     background-color: var(--color-akcent);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
-}
+
 
 
   .tumb {
-    padding: 30px 0px;
+    padding: 30px 0px;}
   
   
-   &__title {
+   .tumb__title {
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -38,22 +38,23 @@
     text-align: center;
     color: var(--color-h);
   }
-   &__text {
+  .tumb__text {
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
     color: var(--color-p);
     margin-bottom: 16px;
   }
-}
+
   
   .social__list  {
     display: flex;
     justify-content: center;
     gap: 10px;
+  }
   
   
-   &__link {
+   .social__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,13 +66,13 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-   &__icon{
+   .social__icon{
     fill: currentColor;
   }
-   &__link:hover,
-   &__link:focus {
+   .social__link:hover,
+   .social__link:focus {
     color: var(--color-akcent);
     background-color: var(--color-primeri);
   }
-}
+
   
