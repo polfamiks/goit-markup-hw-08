@@ -26,15 +26,16 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
   
-  .filter-btn:hover,
-  .filter-btn:focus {
+  
+    &:hover,
+    &:focus {
     background-color: var(--color-primeri);
     color: var(--color-akcent);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
+}
   .filter-btn-one {
     padding: 6px 25px;
     font-family: inherit;
@@ -46,25 +47,15 @@
     border-radius: var(--border-radius);
     cursor: pointer;
     border: none;
-  }
   
-  .filter-btn-one:hover,
-  .filter-btn-one:focus {
+  
+    &:hover,
+    &:focus {
     background: var(--color-primeri);
     color:  var(--color-akcent);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
+
+}
   
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
