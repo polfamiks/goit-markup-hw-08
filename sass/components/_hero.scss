@@ -13,10 +13,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 200px 0;
-    text-align: center;
+    text-align: center;}
   
   
-  &__title {
+  .hero__title {
     width: 696px;
     margin-left: auto;
     margin-right: auto;
@@ -28,7 +28,7 @@
     text-transform: uppercase;
     color: var(--color-akcent);
   }
-}
+
   
   .button {
     margin-top: 30px;

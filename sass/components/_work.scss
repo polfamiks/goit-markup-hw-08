@@ -1,18 +1,17 @@
 
 .work {
-    padding-top: 0;
+    padding-top: 0;}
   
-  &__title {
+  .work__title {
     margin-bottom: 50px;
     text-align: center;
     font-size: 36px;
     line-height: calc(42 / 36);
     color: var(--color-h);
   }
-  &__list {
+  .work__list {
     display: flex;
     margin: 0px;
     padding: 0px;
     gap: 30px;
   }
-}
