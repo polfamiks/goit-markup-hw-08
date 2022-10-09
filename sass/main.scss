@@ -1,14 +1,17 @@
 
 
 // utils
-
+@import "./utils/moder-narmolize";
 @import "./utils/vars";
-@import "./utils/body";
 @import "./utils/visually-hidden";
-@import "./utils/ul";
-@import "./utils/conteiner";
-@import "./utils/section";
-@import "./utils/sizeh";
+
+
+
+@import "./_base.scss/body";
+@import "./_base.scss/ul";
+@import "./_base.scss/conteiner";
+@import "./_base.scss/section";
+@import "./_base.scss/reset";
 
 // page 
 
