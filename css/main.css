@@ -480,8 +480,10 @@ ul {
   padding: 60px 0px;
 }
 
-.conteiner-footer {
-  text-align: center;
+@media screen and (min-width: 480px) {
+  .conteiner-footer {
+    text-align: center;
+  }
 }
 @media screen and (min-width: 768px) {
   .conteiner-footer {
@@ -502,6 +504,7 @@ ul {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    text-align: start;
   }
 }
 
@@ -519,6 +522,12 @@ ul {
   color: var(--color-primeri);
   text-decoration: none;
   color: var(--color-akcent);
+}
+@media screen and (min-width: 1200px) {
+  .link-logo-footer {
+    font-size: 26px;
+    line-height: 1.1923076923;
+  }
 }
 
 .list-footer {

@@ -5,10 +5,15 @@
   }
   
   .conteiner-footer {
+
+    @media screen and (min-width: 480px){
+      
       text-align: center;
+    }
 
     @media screen and(min-width: 768px) {
     display: flex;
+    // text-align: center;
     justify-content: space-around;
     align-items: baseline;
     flex-wrap: wrap;
@@ -16,7 +21,8 @@
 
     @media screen and(min-width: 1200px) {
       justify-content: space-between;
-      
+      text-align: start;
+
     }
   }
   
@@ -32,11 +38,15 @@
     font-weight: 700;
     font-size: 24px;
     line-height: calc(28 /24);
-    // font-size: 26px;
-    // line-height: calc(31 / 26);
+
     color: var(--color-primeri);
     text-decoration: none;
     color: var(--color-akcent);
+
+    @media screen and(min-width: 1200px){
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    }
   }
 
 
