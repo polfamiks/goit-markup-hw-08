@@ -52,7 +52,12 @@
 
 .list-footer{
   margin-bottom: 60px;
-}  
+  @media screen and (min-width: 1200px){
+    margin-bottom: 0;
+  }
+    
+  }
+  
 
   .item-footer {
     margin-bottom: 9px;
@@ -102,7 +107,12 @@
     margin-bottom: 60px;
     gap: 10px;
     color: var(--color-akcent);
+    @media screen and(min-width: 1200px) {
+    
+      margin-bottom: 0;
+
   }
+}
   
   .link-social-footer {
     display: flex;
@@ -160,8 +170,9 @@
     outline: transparent;
 
 @media screen and(min-width: 1200px) {
-  width: 358px;
+   width: 358px;
    margin-right: 12px;
+   margin-bottom: 0;
 
   
 }
