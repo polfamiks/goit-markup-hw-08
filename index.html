@@ -24,7 +24,7 @@
    </head>
   <body>
     <header>
-      <!-- <div class="conteiner">
+       <div class="conteiner">
         <div class="header-cont">
           <nav class="header-nav">
             <a class="header-nav__logo" href="./index.html"><span>Web</span>Studio</a>
@@ -60,10 +60,18 @@
               >
             </li>
           </ul>
+          <div class=" menu-conteiner js-menu-container">
+          <button class="menu-btn js-open-menu"
+           aria-expanded="false"
+           aria-controls="mobile-menu" >
+            <svg width="40" height="40">
+              <use href="../img/images.css/symbol-defs.svg#icon-menu_40px"></use>
+            </svg>
+          </button>
         </div>
-      </div> -->
+        </div>
+      </div>
     </header>
-
     <main>
        <section class="hero section">
        <div class="hero__conteiner conteiner">
@@ -703,6 +711,27 @@
         </form>
       </div>
     </div>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg width="40" height="40">
+          <use href="./img/images.css/symbol-defs.svg#icon-menu_40px#icon-close_40px"></use>
+        </svg>
+       
+      </button>
+
+      <ul class="mobile-menu">
+        
+      </ul>
+    </div>
+    <script
+    defer
+    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"
+  ></script>
+  <script defer src="js/mobielmenu.js"></script>
+
     <script src="./js/modal.js"></script>
   </body>
 </html>

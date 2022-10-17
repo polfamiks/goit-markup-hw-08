@@ -68,6 +68,13 @@ header {
     color: var(--color-primeri);
   }
 }
+.header-nav__list{
+  @media screen and(max-width: 767px) {
+    display: none;
+    
+  }
+
+}
   
 span {
   font-family: "Raleway";
@@ -80,6 +87,11 @@ span {
     display: flex;
     align-items: center;
     gap: 50px;
+    
+    @media screen and(max-width: 767px) {
+      display: none;
+      
+    }
   }
   
   .header-cont__icon{

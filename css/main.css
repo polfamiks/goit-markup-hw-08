@@ -214,6 +214,34 @@ ul {
   padding: 0;
 }
 
+.menu-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-left: auto;
+  background-color: var(--color-akcent);
+  border: none;
+  cursor: pointer;
+}
+
+.menu-conteiner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-akcent);
+}
+
 .about {
   position: relative;
 }
@@ -797,6 +825,12 @@ header {
   color: var(--color-primeri);
 }
 
+@media screen and (max-width: 767px) {
+  .header-nav__list {
+    display: none;
+  }
+}
+
 span {
   font-family: "Raleway";
   font-size: 26px;
@@ -812,6 +846,11 @@ span {
       -ms-flex-align: center;
           align-items: center;
   gap: 50px;
+}
+@media screen and (max-width: 767px) {
+  .header-cont__list {
+    display: none;
+  }
 }
 
 .header-cont__icon {
@@ -880,8 +919,8 @@ span {
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/hero-lg-@2x.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/hero-lg-@2x.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/herolg-@2x.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/herolg-@2x.jpg);
   }
 }
 .hero__title {
