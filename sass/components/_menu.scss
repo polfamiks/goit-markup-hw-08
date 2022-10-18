@@ -7,7 +7,7 @@
     height: 40px;
     padding: 0;
     margin-left: auto;
-    background-color: var(--color-akcent);
+    background-color: transparent;
     border: none;
     cursor: pointer;
 }
@@ -18,4 +18,15 @@
     width: 100%;
     height: 100%;
     background-color: var(--color-akcent);
+    
+}
+
+.menu-btn .icon-cross{
+    display: none;
+}
+.menu-btn .is-open .icon-cross{
+    display: block;
+}
+.menu-btn .is-open .icon-menu{
+    display: none;
 }

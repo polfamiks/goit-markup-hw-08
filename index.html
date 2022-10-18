@@ -61,11 +61,12 @@
             </li>
           </ul>
           <div class=" menu-conteiner js-menu-container">
-          <button class="menu-btn js-open-menu"
+          <button class="menu-btn  is-open js-open-menu" type="button"
            aria-expanded="false"
            aria-controls="mobile-menu" >
             <svg width="40" height="40">
-              <use href="../img/images.css/symbol-defs.svg#icon-menu_40px"></use>
+              <use class="icon-menu" href="./img/icon-menu.svg#icon-menu_40px"></use>
+              <use class="icon-cross" href="./img/icon-menu.svg#icon-close_40px"></use>
             </svg>
           </button>
         </div>
@@ -713,14 +714,24 @@
     </div>
 
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
+      <button class="menu-btn js-close-menu">
         <svg width="40" height="40">
-          <use href="./img/images.css/symbol-defs.svg#icon-menu_40px#icon-close_40px"></use>
-        </svg>
-       
+          <!-- <use href="./img/images.css/symbol-defs.svg#icon-menu_40px#icon-close_40px"></use> -->
+                 </svg>
       </button>
 
       <ul class="mobile-menu">
+        <li>
+          <a class="mobile-menu__link" href="">Студія</a>
+        </li>
+        <li>
+          <a class="mobile-menu__link" href="">Портфоліо</a>
+        </li>
+        <li>
+          <a class="mobile-menu__link" href="">Контакти</a>
+        </li>
+        
+        
         
       </ul>
     </div>
@@ -730,7 +741,7 @@
     integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
     crossorigin="anonymous"
   ></script>
-  <script defer src="js/mobielmenu.js"></script>
+  <script defer src="js/mobile-menu.js"></script>
 
     <script src="./js/modal.js"></script>
   </body>
