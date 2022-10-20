@@ -13,6 +13,7 @@
   @media screen and(min-width: 1200px) {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
   }
 }
 
@@ -27,6 +28,7 @@
   }
   @media screen and(min-width: 1200px) {
     display: flex;
+    align-items: baseline;
   }
 }
 
