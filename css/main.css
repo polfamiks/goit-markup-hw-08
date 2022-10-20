@@ -1126,7 +1126,9 @@ span {
 }
 
 .text-regist-form {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 20px;
   line-height: 1.15;
   letter-spacing: 0.03em;
