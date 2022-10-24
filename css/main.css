@@ -1259,6 +1259,16 @@ span {
   padding: 0px;
   margin: 0px;
 }
+@media screen and (min-width: 768px) {
+  .list-project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 30px;
+  }
+}
 
 .item-project:hover,
 .item-project:focus {
@@ -1281,6 +1291,24 @@ img {
   margin-bottom: 30px;
   width: 450px;
   height: 404px;
+}
+@media screen and (min-width: 768px) {
+  .item-project {
+    margin-bottom: 0px;
+    -ms-flex-preferred-size: 354px;
+        flex-basis: 354px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .item-project {
+    margin-bottom: 0px;
+    -ms-flex-preferred-size: 370px;
+        flex-basis: 370px;
+  }
+}
+
+.item-project:last-child {
+  margin-bottom: 0px;
 }
 
 .link-project {

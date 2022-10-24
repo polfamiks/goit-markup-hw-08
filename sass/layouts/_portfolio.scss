@@ -12,6 +12,14 @@
     // gap: 30px;
     padding: 0px;
     margin: 0px;
+
+
+    @media screen and(min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+      
+    }
   }
   
   .item-project:hover,
@@ -33,7 +41,21 @@
     margin-bottom: 30px;
     width: 450px;
     height: 404px;
+    @media screen and(min-width: 768px) {
+      margin-bottom: 0px;
+      flex-basis: calc((768px - 60px) / 2);
+      }
+      @media screen and(min-width: 1200px) {
+        margin-bottom: 0px;
+        flex-basis: calc((1200px - 90px) / 3);
+        }
+
   }
+
+   .item-project:last-child{
+    margin-bottom: 0px;
+
+   }
   
   .link-project {
     text-decoration: none;
